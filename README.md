@@ -1,4 +1,4 @@
-# 📷 Projet Vision — Reconstruction 3D par Stéréovision
+#  Projet Vision — Reconstruction 3D par Stéréovision
 
 Reconstruction d'un nuage de points 3D à partir de deux photos prises avec la même caméra déplacée latéralement (stéréovision passive).
 
@@ -24,8 +24,8 @@ ProjetVision/
 ├── ProjetVision.ipynb      # Notebook principal
 ├── chess/                  # Images de calibration (damier) — non incluses
 │   └── *.jpg
-├── 7.jpg                   # Photo stéréo gauche — non incluse
-├── 8.jpg                   # Photo stéréo droite — non incluse
+├── 7.jpg                   # Photo stéréo gauche 
+├── 8.jpg                   # Photo stéréo droite 
 ├── camera_params/          # Généré automatiquement à l'exécution
 │   ├── K.npy
 │   ├── dist.npy
@@ -34,14 +34,7 @@ ProjetVision/
 └── README.md
 ```
 
-> **Note :** Les images (`chess/`, `7.jpg`, `8.jpg`) ne sont pas incluses dans le repo car elles peuvent contenir des informations personnelles ou être trop lourdes. Remplace-les par tes propres photos.
-
-## Installation
-
-```bash
-git clone https://github.com/<ton-username>/ProjetVision.git
-cd ProjetVision
-pip install -r requirements.txt
+> **Note :** Les images (`chess/`, `7.jpg`, `8.jpg`) ne sont pas incluses dans le repo 
 ```
 
 ## Utilisation
